@@ -5,7 +5,7 @@
      }
      
 -    fs::path filename_path(filename.c_str());
-+    fs::path filename_path(filename.ToStdWstring());
++    fs::path filename_path(filename.ToStdWstring() + "^*");
      m_current_project_name = wxString::FromUTF8(filename_path.filename().string());
  
      //unsupported character filter
