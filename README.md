@@ -4,5 +4,5 @@ Based on work zhaofengli (https://github.com/zhaofengli/nixpkgs/tree/bambu-studi
 
 Basic usage:
 ```
-nix run github:ovlach/nix-orca-slicer#orca-slicer
+nix run github:colin-rushton-qss/nix-orca-slicer#orca-slicer
 ```
