@@ -65,7 +65,7 @@ stdenv.mkDerivation rec {
     owner = "SoftFever";
     repo = "OrcaSlicer";
     rev = "v${version}";
-    # hash = "sha256-qwlLHtTVIRW1g5WRQ5NhDh+O8Bypra/voIu39yU2tbw=";
+    hash = "sha256-7fusdSYpZb4sYl5L/+81PzMd42Nsejj+kCZsq0f7eIk=";
   };
 
   patches = [
