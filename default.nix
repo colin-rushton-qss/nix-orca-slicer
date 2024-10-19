@@ -59,7 +59,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "orca-slicer";
-  version = "2.1.1";
+  version = "2.0.0";
 
   src = fetchFromGitHub {
     owner = "SoftFever";
@@ -72,8 +72,8 @@ stdenv.mkDerivation rec {
     # https://github.com/wxWidgets/wxWidgets/issues/17942
     ./0001-segv-patches.patch
     ./0002-cmake-fix.patch
-    # ./0003-fix-ambiguous-call.patch
-    # ./0004-fix-ambiguous-call.patch
+    ./0003-fix-ambiguous-call.patch
+    ./0004-fix-ambiguous-call.patch
   ];
 
   dontStrip = true;
